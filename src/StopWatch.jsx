@@ -50,7 +50,7 @@ function StopWatch() {
     <div className="stopwatch">
       <div className="display">{formatTime()}</div>
       <div className="controls">
-        <button onClick={start}>Start</button>
+        <button onClick={start}>start</button>
         <button onClick={stop}>Stop</button>
         <button onClick={reset}>Reset</button>
       </div>
